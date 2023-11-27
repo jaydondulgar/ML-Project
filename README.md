@@ -1,9 +1,10 @@
 # Handwritten Digit Prediction - Convolutional Neural Network
 
 ## Project Summary
-Test to see how indentation works:  
-Here is a new line.  
-Here is another new line.  
+Our project uses a Convolution Neural Network to observe an image dataset of handwritten digits and predict what digit is written down.  
+Convolutional Neural Networks (CNNs) play a pivotal role as a widely employed category of deep learning models, particularly in the domain of computer vision.  
+A few examples of CNNs in Computer Vision are: Image Recognition, Spatial Hierarchies and Local Connectivity, Parameter Sharing, and Translation Invariance.  
+
 ## Python Libraries Used & How to Install Them
 
 ## How to Run the Handwritten Digit CNN
