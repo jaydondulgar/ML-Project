@@ -20,7 +20,11 @@ pip install tensorflow
 pip install matplotlib  
 pip install keras  
 ## How to Run the Handwritten Digit CNN
-We highly recommend that you run this project in Google Colab. If you choose to do so, you won't even need to install the libraries mentioned above.
+First, install the libraries in requirements.txt.  
+Next, select the standard Python 3.9.7 kernal.  
+Then, run the import cell at the top before continuing down in the notebook.  
+
+  If you run into ANY issues concerning the active kernal, functions, or imports (as we did during development), we recommend using Google Colab. Once we switched over to their IDE, all these problems vanished.   
 ## How to Run with Docker
  When running the docker container, the following command should be used:   
  docker build -t enderwolfc/demo:3 .  
