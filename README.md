@@ -2,7 +2,11 @@
 
 ## Project Summary
 
-## Docker
+## Python Libraries Used & How to Install Them
+
+## How to Run the Handwritten Digit CNN
+
+## How to Run with Docker
  When running the docker container, the following command should be used:
  docker build -t enderwolfc/demo:3 .
  docker run -p 8889:8888 enderwolfc/demo:3
@@ -13,3 +17,7 @@
  Copy the token(everything that comes after token=) and paste it into the password field on the jupyter notebook page. This should lead you to and give you access to the jupyter notebook.
  To compose the docker using the docker-compose.yml file, the following command should be used:
     docker compose up
+
+## About the Model
+
+## Performance & Evaluation of Model
