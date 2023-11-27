@@ -7,8 +7,11 @@ A few examples of CNNs in Computer Vision are: Image Recognition, Spatial Hierar
 
 ## Python Libraries Used & How to Install Them
 We used only four libraries for this project: numpy, tensorflow, keras (which is a library within tensorflow), and matplotlib.  
-These libraries are all listed in "requirements.txt", and you can easily install them all using this command:  
-pip install -r requirements.txt  
+
+NOTE: If you are using Google Colab, you can skip this section on installation. Google Colab has all these libraries available for import upon creating a new codespace.  
+
+If you're using a standard IDE such as VSCode, these four libraries are all listed in "requirements.txt", and you can easily install them all using this command:  
+  pip install -r requirements.txt  
   
 or, if you want to install each of them manually, type these commmands:  
   
@@ -17,7 +20,7 @@ pip install tensorflow
 pip install matplotlib  
 pip install keras  
 ## How to Run the Handwritten Digit CNN
-
+We highly recommend that you run this project in Google Colab. If you choose to do so, you won't even need to install the libraries mentioned above.
 ## How to Run with Docker
  When running the docker container, the following command should be used:   
  docker build -t enderwolfc/demo:3 .  
