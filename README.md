@@ -6,7 +6,16 @@ Convolutional Neural Networks (CNNs) play a pivotal role as a widely employed ca
 A few examples of CNNs in Computer Vision are: Image Recognition, Spatial Hierarchies and Local Connectivity, Parameter Sharing, and Translation Invariance.  
 
 ## Python Libraries Used & How to Install Them
-
+We used only four libraries for this project: numpy, tensorflow, keras (which is a library within tensorflow), and matplotlib.  
+These libraries are all listed in "requirements.txt", and you can easily install them all using this command:  
+pip install -r requirements.txt  
+  
+or, if you want to install each of them manually, type these commmands:  
+  
+pip install numpy  
+pip install tensorflow  
+pip install matplotlib  
+pip install keras  
 ## How to Run the Handwritten Digit CNN
 
 ## How to Run with Docker
