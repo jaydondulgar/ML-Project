@@ -1,15 +1,15 @@
 # Handwritten Digit Prediction - Convolutional Neural Network
 
 ## Project Summary
-Test to see how indentation works:
-Here is a new line.
-Here is another new line.
+Test to see how indentation works:  
+Here is a new line.  
+Here is another new line.  
 ## Python Libraries Used & How to Install Them
 
 ## How to Run the Handwritten Digit CNN
 
 ## How to Run with Docker
- When running the docker container, the following command should be used:
+ When running the docker container, the following command should be used:   
  docker build -t enderwolfc/demo:3 .
  docker run -p 8889:8888 enderwolfc/demo:3
  After running the command, the following link should be used to access the jupyter notebook:
