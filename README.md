@@ -38,5 +38,6 @@ Then, run the import cell at the top before continuing down in the notebook.
     docker compose up  
 
 ## About the Model
-
+This convolutional neural network uses a sequential model so that we are able to add layers to the model one by one. The model goes over each image in 54,000 images from the MNIST dataset and predicts what the handwritten digit is. We quantify the accuracy with sparse categorical accuracy. For the loss function, we use sparse categorical cross entropy.  
 ## Performance & Evaluation of Model
+From a performance perspective, the model is extremely accurate. Averaging an accuracy of 0.9876 and a loss of 0.04732.
